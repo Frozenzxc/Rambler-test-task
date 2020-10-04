@@ -4,10 +4,6 @@
   margin: 0 auto;
   position: relative;
   display: block;
-  /*display: grid;
-  grid-template-columns: 100%;
-  grid-gap: 30px;
-  grid-auto-rows: 370px;*/
 }
 
 .gallery__item {
@@ -139,10 +135,6 @@
 }
 
 @media (min-width: 1150px) {
-  .gallery {
-    /*grid-template-columns: 30% 30% 30%;*/
-  }
-
   .gallery__item {
     width: 30%;
     padding-left: 0;
@@ -164,10 +156,6 @@
 }
 
 @media (min-width: 1440px) {
-  .gallery {
-    /*grid-template-columns: 22% 22% 22% 22%;*/
-  }
-
   .gallery__item {
     width: 22%;
   }
