@@ -26,5 +26,5 @@ export const formatDate = (date) => {
 };
 
 export const clearText = (text) => {
-  return text.replace(/<[^>] + >/g, ``);
+  return text.replace(/<[^>]+>/g, ``);
 };
