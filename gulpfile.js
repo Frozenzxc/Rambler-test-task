@@ -71,7 +71,7 @@ gulp.task("copy", function () {
   return gulp.src([
     "src/fonts/**/*.{woff,woff2}",
     "src/img/**",
-    "src/*.ico"
+    "src/*.ico",
   ], {
     base: "src"
   })

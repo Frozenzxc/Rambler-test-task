@@ -12,16 +12,16 @@ import {Operation as DataOperation} from "./reducer/photos/photos";
 export const api = createAPI();
 
 const store = createStore(
-  reducer,
-  composeWithDevTools(
-    applyMiddleware(thunk.withExtraArgument(api)))
+    reducer,
+    composeWithDevTools(
+        applyMiddleware(thunk.withExtraArgument(api)))
 );
 
 store.dispatch(DataOperation.loadPhotos());
 
 ReactDOM.render(
-  <Provider store={store}>
-    <App/>
-  </Provider>,
+    <Provider store={store}>
+      <App/>
+    </Provider>,
     document.querySelector(`#root`)
 );

@@ -1,10 +1,5 @@
 import axios from "axios";
 
-const Error = {
-  UNAUTHORIZED: 401,
-  NOT_FOUND: 404,
-};
-
 export const createAPI = () => {
   const api = axios.create({
     baseURL: `https://www.flickr.com/services/rest`,

@@ -2,8 +2,8 @@ import React, {Fragment} from "react";
 import Main from "../main/main.jsx";
 import NameSpace from "../../reducer/name-space";
 import {connect} from "react-redux";
-import {Operation} from "../../reducer/photos/photos";
-
+import PropTypes from "prop-types";
+import {photoShape} from "../../prop-types.jsx";
 
 class App extends React.PureComponent {
   _renderApp() {
@@ -11,10 +11,6 @@ class App extends React.PureComponent {
     if (isLoading) {
       return false;
     }
-
-    /*photos.forEach((photo) => {
-      this.props.loadPhotoInfo(photo.id)
-    });*/
 
     return (
       <Main photos={photos}/>
@@ -24,26 +20,19 @@ class App extends React.PureComponent {
   render() {
     return <Fragment>
       {this._renderApp()}
-    </Fragment>
+    </Fragment>;
   }
 }
+
+App.propTypes = {
+  isLoading: PropTypes.bool.isRequired,
+  photos: PropTypes.arrayOf(photoShape).isRequired,
+};
 
 const mapStateToProps = (state) => ({
   isLoading: state[NameSpace.PHOTOS].isLoading,
   photos: state[NameSpace.PHOTOS].photos,
 });
 
-const mapDispatchToProps = (dispatch) => ({
-  loadPhotoInfo(id) {
-    dispatch(Operation.loadPhotoInfo(id));
-  },
-  onCardTitleClick(offer) {
-    dispatch(ActionCreator.selectOffer(offer));
-  },
-  onCityClick(city) {
-    dispatch(ActionCreator.selectCity(city));
-  }
-});
-
 export {App};
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default connect(mapStateToProps)(App);

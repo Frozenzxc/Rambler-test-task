@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card is rendered correctly 1`] = `
+<li
+  className="gallery__item"
+>
+  <div
+    className="gallery__item-header"
+  >
+    <p
+      className="gallery__item-author"
+    >
+      Dylan Toh
+    </p>
+    <img
+      className="gallery__item-avatar"
+      src="http://farm4.staticflickr.com/3171/buddyicons/9619621@N02.jpg"
+    />
+    <p
+      className="gallery__place"
+    >
+      Bales Beach
+    </p>
+    <p
+      className="gallery__date"
+    >
+      in a day
+    </p>
+  </div>
+  <img
+    className="gallery__item-photo"
+    src="https://live.staticflickr.com/65535/50410942841_f23992557b_n.jpg"
+  />
+  <p
+    className="gallery__description"
+  >
+    During our last trip to KI, I took a walk along the spectacular Bale's Beach. Pristine sands and not a soul around as well as dramatic approaching cloud - all made for a great morning.
+  </p>
+  <p
+    className="gallery__likes"
+  >
+    <span
+      className="gallery__likes-icon"
+      onClick={[Function]}
+    >
+      heart
+    </span>
+    22869
+  </p>
+</li>
+`;

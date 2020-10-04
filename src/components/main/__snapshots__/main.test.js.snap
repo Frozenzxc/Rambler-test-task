@@ -1,0 +1,973 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should Main component render correctly 1`] = `
+<ul
+  className="gallery container"
+>
+  <li
+    className="gallery__item"
+  >
+    <div
+      className="gallery__item-header"
+    >
+      <p
+        className="gallery__item-author"
+      >
+        Dylan Toh
+      </p>
+      <img
+        className="gallery__item-avatar"
+        src="http://farm4.staticflickr.com/3171/buddyicons/9619621@N02.jpg"
+      />
+      <p
+        className="gallery__place"
+      >
+        Bales Beach
+      </p>
+      <p
+        className="gallery__date"
+      >
+        in a day
+      </p>
+    </div>
+    <img
+      className="gallery__item-photo"
+      src="https://live.staticflickr.com/65535/50410942841_f23992557b_n.jpg"
+    />
+    <p
+      className="gallery__description"
+    >
+      During our last trip to KI, I took a walk along the spectacular Bale's Beach. Pristine sands and not a soul around as well as dramatic approaching cloud - all made for a great morning.
+    </p>
+    <p
+      className="gallery__likes"
+    >
+      <span
+        className="gallery__likes-icon"
+        onClick={[Function]}
+      >
+        heart
+      </span>
+      22869
+    </p>
+  </li>
+  <li
+    className="gallery__item"
+  >
+    <div
+      className="gallery__item-header"
+    >
+      <p
+        className="gallery__item-author"
+      >
+        Fabian Fortmann
+      </p>
+      <img
+        className="gallery__item-avatar"
+        src="http://farm66.staticflickr.com/65535/buddyicons/101058950@N02.jpg"
+      />
+      <p
+        className="gallery__place"
+      >
+        Hidden Cabin
+      </p>
+      <p
+        className="gallery__date"
+      >
+        in a day
+      </p>
+    </div>
+    <img
+      className="gallery__item-photo"
+      src="https://live.staticflickr.com/65535/50412177677_f70e054249_n.jpg"
+    />
+    <p
+      className="gallery__description"
+    >
+      Sometimes it's just fascinating what a change of perspective can create.
+
+You won't see the unusual shape of this bay from the ground...
+
+Can you spot the tiny cabin that's hidden somewhere in this shot?
+    </p>
+    <p
+      className="gallery__likes"
+    >
+      <span
+        className="gallery__likes-icon"
+        onClick={[Function]}
+      >
+        heart
+      </span>
+      22595
+    </p>
+  </li>
+  <li
+    className="gallery__item"
+  >
+    <div
+      className="gallery__item-header"
+    >
+      <p
+        className="gallery__item-author"
+      >
+        zoomleeuwtje
+      </p>
+      <img
+        className="gallery__item-avatar"
+        src="http://farm66.staticflickr.com/65535/buddyicons/138004730@N03.jpg"
+      />
+      <p
+        className="gallery__place"
+      >
+        Colours of the salt marsh
+      </p>
+      <p
+        className="gallery__date"
+      >
+        in a day
+      </p>
+    </div>
+    <img
+      className="gallery__item-photo"
+      src="https://live.staticflickr.com/65535/50410981591_15d01e4ca0_n.jpg"
+    />
+    <p
+      className="gallery__description"
+    >
+      De Kwade Hoek, the Netherlands
+    </p>
+    <p
+      className="gallery__likes"
+    >
+      <span
+        className="gallery__likes-icon"
+        onClick={[Function]}
+      >
+        heart
+      </span>
+      21068
+    </p>
+  </li>
+  <li
+    className="gallery__item"
+  >
+    <div
+      className="gallery__item-header"
+    >
+      <p
+        className="gallery__item-author"
+      >
+        Adeosun Olamide
+      </p>
+      <img
+        className="gallery__item-avatar"
+        src="http://farm66.staticflickr.com/65535/buddyicons/110372823@N05.jpg"
+      />
+      <p
+        className="gallery__place"
+      >
+        .
+      </p>
+      <p
+        className="gallery__date"
+      >
+        in 2 days
+      </p>
+    </div>
+    <img
+      className="gallery__item-photo"
+      src="https://live.staticflickr.com/65535/50407719666_913191347d_n.jpg"
+    />
+    <p
+      className="gallery__description"
+    >
+      
+    </p>
+    <p
+      className="gallery__likes"
+    >
+      <span
+        className="gallery__likes-icon"
+        onClick={[Function]}
+      >
+        heart
+      </span>
+      18604
+    </p>
+  </li>
+  <li
+    className="gallery__item"
+  >
+    <div
+      className="gallery__item-header"
+    >
+      <p
+        className="gallery__item-author"
+      >
+        N.Hell
+      </p>
+      <img
+        className="gallery__item-avatar"
+        src="http://farm8.staticflickr.com/7455/buddyicons/102781775@N04.jpg"
+      />
+      <p
+        className="gallery__place"
+      >
+        Sablanceaux
+      </p>
+      <p
+        className="gallery__date"
+      >
+        in a day
+      </p>
+    </div>
+    <img
+      className="gallery__item-photo"
+      src="https://live.staticflickr.com/65535/50412107451_2a02f493f9_n.jpg"
+    />
+    <p
+      className="gallery__description"
+    >
+      
+    </p>
+    <p
+      className="gallery__likes"
+    >
+      <span
+        className="gallery__likes-icon"
+        onClick={[Function]}
+      >
+        heart
+      </span>
+      13985
+    </p>
+  </li>
+  <li
+    className="gallery__item"
+  >
+    <div
+      className="gallery__item-header"
+    >
+      <p
+        className="gallery__item-author"
+      >
+        Patrick HIBLOT
+      </p>
+      <img
+        className="gallery__item-avatar"
+        src="http://farm2.staticflickr.com/1451/buddyicons/97165977@N06.jpg"
+      />
+      <p
+        className="gallery__place"
+      >
+        château de Versas
+      </p>
+      <p
+        className="gallery__date"
+      >
+        in 2 days
+      </p>
+    </div>
+    <img
+      className="gallery__item-photo"
+      src="https://live.staticflickr.com/65535/50410859447_fb881fea29_n.jpg"
+    />
+    <p
+      className="gallery__description"
+    >
+      Situé dans la partie montagneuse du bas-Vivarais, à 550 m d'altitude, le château de Versas est un des plus beaux fleurons du département de l'Ardèche. 
+Nous avons très peu d'éléments sur son histoire mais nous savons que ce château fut au moyen-âge une dépendance de la &quot;Tour de Brison&quot; et la demeure des seigneurs de Montbrison en temps de paix. 
+Le château était encore habité en 1703. Livré au pillage pendant la Révolution, il devint une exploitation agricole jusqu'en 1968. 
+Les nouveaux propriétaires, membres de l'association &quot;vieilles maisons françaises, ont décidé de restaurer le château dans le respect de sa construction d'origine. La tour du château est inscrite à l'inventaire des monuments historiques. 
+
+Si vous le souhaitez, vous pouvez visionner le diaporama de notre randonnée effectuée autour de la tour de Brison,&lt;a href="https://youtu.be/kBXO57XbX6o" rel="noreferrer nofollow"&gt; en cliquant ICI&lt;/a&gt;.
+    </p>
+    <p
+      className="gallery__likes"
+    >
+      <span
+        className="gallery__likes-icon"
+        onClick={[Function]}
+      >
+        heart
+      </span>
+      13930
+    </p>
+  </li>
+  <li
+    className="gallery__item"
+  >
+    <div
+      className="gallery__item-header"
+    >
+      <p
+        className="gallery__item-author"
+      >
+        snowyturner
+      </p>
+      <img
+        className="gallery__item-avatar"
+        src="http://farm8.staticflickr.com/7443/buddyicons/57866871@N03.jpg"
+      />
+      <p
+        className="gallery__place"
+      >
+        Dusk over Derwentwater
+      </p>
+      <p
+        className="gallery__date"
+      >
+        in a day
+      </p>
+    </div>
+    <img
+      className="gallery__item-photo"
+      src="https://live.staticflickr.com/65535/50411139106_482bfbc9dc_n.jpg"
+    />
+    <p
+      className="gallery__description"
+    >
+      A colourful post-sunset sky captured over Derwentwater, in the English Lakes, from the sheltered shorelines of Brandlehow Bay. Thanks for viewing.
+    </p>
+    <p
+      className="gallery__likes"
+    >
+      <span
+        className="gallery__likes-icon"
+        onClick={[Function]}
+      >
+        heart
+      </span>
+      12629
+    </p>
+  </li>
+  <li
+    className="gallery__item"
+  >
+    <div
+      className="gallery__item-header"
+    >
+      <p
+        className="gallery__item-author"
+      >
+        inefekt69
+      </p>
+      <img
+        className="gallery__item-avatar"
+        src="http://farm3.staticflickr.com/2918/buddyicons/23409752@N08.jpg"
+      />
+      <p
+        className="gallery__place"
+      >
+        Milky Way & Zodiacal Light at Nambling Lakes - Dowerin, Western Australia
+      </p>
+      <p
+        className="gallery__date"
+      >
+        in 2 days
+      </p>
+    </div>
+    <img
+      className="gallery__item-photo"
+      src="https://live.staticflickr.com/65535/50410513541_3fce748f1b_n.jpg"
+    />
+    <p
+      className="gallery__description"
+    >
+      Nikon d5500
+35mm
+ISO 4000
+f/2.8
+Foreground: 18 x 20 seconds
+Sky: 46 x 30 seconds
+iOptron SkyTracker
+
+This is a 64 shot panorama of the Milky Way and post-sunset Zodiacal Light above Nambling Lakes, 5km west of the small Wheatbelt town of Dowerin in Western Australia, 2 hours north east of the state capital, Perth.
+
+I specifically wanted to capture the Zodiacal Light with this panorama, having seen it very prominently the last time I was in Dowerin a few weeks earlier. That time I was in the middle of shooting a panorama facing south so by the time I'd finished it was too faint to capture. The Zodiacal Light is best seen after sunset in Spring and before dawn in Autumn. It's currently Spring here in Australia so this was started about an hour after sunset and finished about an hour later. It was an abrupt finish actually as a local police officer came to check on my car, which was parked on the side of a main road nearby...thankfully I only had to rush through the last couple of shots before packing up my gear to explain myself to the officer :)
+
+The light pollution on the left is from the town of Goomalling just 15km to the west. Also prominent on the left horizon is the Carina Nebula while the North America Nebula can be seen just above the eastern horizon on the right of the image. The dead tree was light painted with a hand held spotlight.
+    </p>
+    <p
+      className="gallery__likes"
+    >
+      <span
+        className="gallery__likes-icon"
+        onClick={[Function]}
+      >
+        heart
+      </span>
+      12935
+    </p>
+  </li>
+  <li
+    className="gallery__item"
+  >
+    <div
+      className="gallery__item-header"
+    >
+      <p
+        className="gallery__item-author"
+      >
+        Rafael Zenon Wagner
+      </p>
+      <img
+        className="gallery__item-avatar"
+        src="http://farm1.staticflickr.com/826/buddyicons/125877475@N06.jpg"
+      />
+      <p
+        className="gallery__place"
+      >
+        Die Alm
+      </p>
+      <p
+        className="gallery__date"
+      >
+        in 2 days
+      </p>
+    </div>
+    <img
+      className="gallery__item-photo"
+      src="https://live.staticflickr.com/65535/50408007248_8b6c5e2b8e_n.jpg"
+    />
+    <p
+      className="gallery__description"
+    >
+      Während in Nordrhein Westfalen die Wiesen wegen den seit Monaten ausbleibenden Regen sich in Steppen verwandeln, strahlen sie in Bayern saftig grün. 
+
+Schliersee, Bayern.
+    </p>
+    <p
+      className="gallery__likes"
+    >
+      <span
+        className="gallery__likes-icon"
+        onClick={[Function]}
+      >
+        heart
+      </span>
+      11388
+    </p>
+  </li>
+  <li
+    className="gallery__item"
+  >
+    <div
+      className="gallery__item-header"
+    >
+      <p
+        className="gallery__item-author"
+      >
+        Eric Jeandrau&lt;!!!!!!!!!!!!!!!!!!!!!!!!!!!
+      </p>
+      <img
+        className="gallery__item-avatar"
+        src="http://farm66.staticflickr.com/65535/buddyicons/16230743@N06.jpg"
+      />
+      <p
+        className="gallery__place"
+      >
+        Shorebreak Art&lt;!!!!!!!!!!!!!!!!!!!!!!!!
+      </p>
+      <p
+        className="gallery__date"
+      >
+        in a day
+      </p>
+    </div>
+    <img
+      className="gallery__item-photo"
+      src="https://live.staticflickr.com/65535/50411199587_ffa73f38ff_n.jpg"
+    />
+    <p
+      className="gallery__description"
+    >
+      &lt;a href="https://www.instagram.com/ericjeandrau" rel="noreferrer nofollow"&gt;www.instagram.com/ericjeandrau&lt;/a&gt;
+    </p>
+    <p
+      className="gallery__likes"
+    >
+      <span
+        className="gallery__likes-icon"
+        onClick={[Function]}
+      >
+        heart
+      </span>
+      8059
+    </p>
+  </li>
+  <li
+    className="gallery__item"
+  >
+    <div
+      className="gallery__item-header"
+    >
+      <p
+        className="gallery__item-author"
+      >
+        isabellepluyaud
+      </p>
+      <img
+        className="gallery__item-avatar"
+        src="http://farm1.staticflickr.com/920/buddyicons/146288959@N04.jpg"
+      />
+      <p
+        className="gallery__place"
+      >
+        Distanciation....... Végétale
+      </p>
+      <p
+        className="gallery__date"
+      >
+        in a day
+      </p>
+    </div>
+    <img
+      className="gallery__item-photo"
+      src="https://live.staticflickr.com/65535/50411268531_609a9f7b53_n.jpg"
+    />
+    <p
+      className="gallery__description"
+    >
+      
+    </p>
+    <p
+      className="gallery__likes"
+    >
+      <span
+        className="gallery__likes-icon"
+        onClick={[Function]}
+      >
+        heart
+      </span>
+      7001
+    </p>
+  </li>
+  <li
+    className="gallery__item"
+  >
+    <div
+      className="gallery__item-header"
+    >
+      <p
+        className="gallery__item-author"
+      >
+        Kasia Derwinska
+      </p>
+      <img
+        className="gallery__item-avatar"
+        src="http://farm66.staticflickr.com/65535/buddyicons/94321001@N00.jpg"
+      />
+      <p
+        className="gallery__place"
+      >
+        heavenly sounds
+      </p>
+      <p
+        className="gallery__date"
+      >
+        in 2 days
+      </p>
+    </div>
+    <img
+      className="gallery__item-photo"
+      src="https://live.staticflickr.com/65535/50410054737_a938ba822c_n.jpg"
+    />
+    <p
+      className="gallery__description"
+    >
+      I haven't heard the music for a long time
+
+&lt;a href="http://www.blurb.es/books/6853336-magic-art-photography?t=1453751480690" rel="noreferrer nofollow"&gt;Book&lt;/a&gt; / &lt;a href="http://www.magic-art-photography.eu" rel="noreferrer nofollow"&gt;Magic Art Photography&lt;/a&gt; / &lt;a href="https://www.facebook.com/kasia.derwinska.5" rel="noreferrer nofollow"&gt;Facebook&lt;/a&gt; / &lt;a href="https://www.instagram.com/kasia_derwinska/" rel="noreferrer nofollow"&gt;Instagram&lt;/a&gt;
+    </p>
+    <p
+      className="gallery__likes"
+    >
+      <span
+        className="gallery__likes-icon"
+        onClick={[Function]}
+      >
+        heart
+      </span>
+      6812
+    </p>
+  </li>
+  <li
+    className="gallery__item"
+  >
+    <div
+      className="gallery__item-header"
+    >
+      <p
+        className="gallery__item-author"
+      >
+        SONIC2011.COM
+      </p>
+      <img
+        className="gallery__item-avatar"
+        src="http://farm6.staticflickr.com/5467/buddyicons/78270306@N07.jpg"
+      />
+      <p
+        className="gallery__place"
+      >
+        #drawing #hair #night #sun #igers #follow4follow #weekend #nofilter #Japan #outfit #red #followforfollowback #photoshoot #TagsForLikes #sweet #swag #summer #landscape #training #awesome #ksa #Travelgram #like #corona #viral #ate #sweet #candy#coffee
+      </p>
+      <p
+        className="gallery__date"
+      >
+        in 2 days
+      </p>
+    </div>
+    <img
+      className="gallery__item-photo"
+      src="https://live.staticflickr.com/65535/50407639931_a0015c5a08_n.jpg"
+    />
+    <p
+      className="gallery__description"
+    >
+      
+    </p>
+    <p
+      className="gallery__likes"
+    >
+      <span
+        className="gallery__likes-icon"
+        onClick={[Function]}
+      >
+        heart
+      </span>
+      5908
+    </p>
+  </li>
+  <li
+    className="gallery__item"
+  >
+    <div
+      className="gallery__item-header"
+    >
+      <p
+        className="gallery__item-author"
+      >
+        MukeshPhoto
+      </p>
+      <img
+        className="gallery__item-avatar"
+        src="http://farm1.staticflickr.com/742/buddyicons/140719006@N08.jpg"
+      />
+      <p
+        className="gallery__place"
+      >
+        The Moment of Success!_
+      </p>
+      <p
+        className="gallery__date"
+      >
+        in 2 days
+      </p>
+    </div>
+    <img
+      className="gallery__item-photo"
+      src="https://live.staticflickr.com/65535/50408868637_e7a06cbfa2_n.jpg"
+    />
+    <p
+      className="gallery__description"
+    >
+      
+    </p>
+    <p
+      className="gallery__likes"
+    >
+      <span
+        className="gallery__likes-icon"
+        onClick={[Function]}
+      >
+        heart
+      </span>
+      5828
+    </p>
+  </li>
+  <li
+    className="gallery__item"
+  >
+    <div
+      className="gallery__item-header"
+    >
+      <p
+        className="gallery__item-author"
+      >
+        Patrik S.
+      </p>
+      <img
+        className="gallery__item-avatar"
+        src="http://farm66.staticflickr.com/65535/buddyicons/73850513@N02.jpg"
+      />
+      <p
+        className="gallery__place"
+      >
+        Swiss alps in Engadin - Switzerland
+      </p>
+      <p
+        className="gallery__date"
+      >
+        in a day
+      </p>
+    </div>
+    <img
+      className="gallery__item-photo"
+      src="https://live.staticflickr.com/65535/50410767548_f06913366d_n.jpg"
+    />
+    <p
+      className="gallery__description"
+    >
+      Reflecting Swiss mountain peaks in a small lake in the Engadin. 
+    </p>
+    <p
+      className="gallery__likes"
+    >
+      <span
+        className="gallery__likes-icon"
+        onClick={[Function]}
+      >
+        heart
+      </span>
+      7011
+    </p>
+  </li>
+  <li
+    className="gallery__item"
+  >
+    <div
+      className="gallery__item-header"
+    >
+      <p
+        className="gallery__item-author"
+      >
+        oʇ[◎]ɥd | ʍɟɐ
+      </p>
+      <img
+        className="gallery__item-avatar"
+        src="http://farm8.staticflickr.com/7910/buddyicons/126687905@N03.jpg"
+      />
+      <p
+        className="gallery__place"
+      >
+        Sonnenaufgang auf der Küssaburg - explored
+      </p>
+      <p
+        className="gallery__date"
+      >
+        in 2 days
+      </p>
+    </div>
+    <img
+      className="gallery__item-photo"
+      src="https://live.staticflickr.com/65535/50409960173_8c6d8455a0_n.jpg"
+    />
+    <p
+      className="gallery__description"
+    >
+      Die Küssaburg wird auch Schloss Küssenberg genannt und ist die Ruine einer Gipfleburg im Landkreis Waldshut und ist auch dessen Wahrzeichen. Dieses Foto wurde am 3.10.2020 in Flickr explore/entdecken auf Platz 16 gelistet.
+    </p>
+    <p
+      className="gallery__likes"
+    >
+      <span
+        className="gallery__likes-icon"
+        onClick={[Function]}
+      >
+        heart
+      </span>
+      6644
+    </p>
+  </li>
+  <li
+    className="gallery__item"
+  >
+    <div
+      className="gallery__item-header"
+    >
+      <p
+        className="gallery__item-author"
+      >
+        Ro Cafe
+      </p>
+      <img
+        className="gallery__item-avatar"
+        src="http://farm4.staticflickr.com/3881/buddyicons/96885276@N05.jpg"
+      />
+      <p
+        className="gallery__place"
+      >
+        The sea
+      </p>
+      <p
+        className="gallery__date"
+      >
+        in 3 days
+      </p>
+    </div>
+    <img
+      className="gallery__item-photo"
+      src="https://live.staticflickr.com/65535/50405935912_ba4a4e4b97_n.jpg"
+    />
+    <p
+      className="gallery__description"
+    >
+      Cantabrian Sea
+    </p>
+    <p
+      className="gallery__likes"
+    >
+      <span
+        className="gallery__likes-icon"
+        onClick={[Function]}
+      >
+        heart
+      </span>
+      6607
+    </p>
+  </li>
+  <li
+    className="gallery__item"
+  >
+    <div
+      className="gallery__item-header"
+    >
+      <p
+        className="gallery__item-author"
+      >
+        juan carlos luna monfort
+      </p>
+      <img
+        className="gallery__item-avatar"
+        src="http://farm66.staticflickr.com/65535/buddyicons/142888467@N06.jpg"
+      />
+      <p
+        className="gallery__place"
+      >
+        RIO SENIA
+      </p>
+      <p
+        className="gallery__date"
+      >
+        in 3 days
+      </p>
+    </div>
+    <img
+      className="gallery__item-photo"
+      src="https://live.staticflickr.com/65535/50407129212_ed55161596_n.jpg"
+    />
+    <p
+      className="gallery__description"
+    >
+      
+    </p>
+    <p
+      className="gallery__likes"
+    >
+      <span
+        className="gallery__likes-icon"
+        onClick={[Function]}
+      >
+        heart
+      </span>
+      5627
+    </p>
+  </li>
+  <li
+    className="gallery__item"
+  >
+    <div
+      className="gallery__item-header"
+    >
+      <p
+        className="gallery__item-author"
+      >
+        3D-Relu
+      </p>
+      <img
+        className="gallery__item-avatar"
+        src="http://farm66.staticflickr.com/65535/buddyicons/184909244@N02.jpg"
+      />
+      <p
+        className="gallery__place"
+      >
+        3D- Explore 03.10,2020
+      </p>
+      <p
+        className="gallery__date"
+      >
+        in 3 days
+      </p>
+    </div>
+    <img
+      className="gallery__item-photo"
+      src="https://live.staticflickr.com/65535/50407032736_8bdd571dbb_n.jpg"
+    />
+    <p
+      className="gallery__description"
+    >
+      
+    </p>
+    <p
+      className="gallery__likes"
+    >
+      <span
+        className="gallery__likes-icon"
+        onClick={[Function]}
+      >
+        heart
+      </span>
+      5552
+    </p>
+  </li>
+  <li
+    className="gallery__item"
+  >
+    <div
+      className="gallery__item-header"
+    >
+      <p
+        className="gallery__item-author"
+      >
+        ciriulloaulloagarrido1
+      </p>
+      <img
+        className="gallery__item-avatar"
+        src="http://farm66.staticflickr.com/65535/buddyicons/152317062@N02.jpg"
+      />
+      <p
+        className="gallery__place"
+      >
+        Ciri Siempre al acecho
+      </p>
+      <p
+        className="gallery__date"
+      >
+        in 2 days
+      </p>
+    </div>
+    <img
+      className="gallery__item-photo"
+      src="https://live.staticflickr.com/65535/50408477958_6442f8d37b_n.jpg"
+    />
+    <p
+      className="gallery__description"
+    >
+      
+    </p>
+    <p
+      className="gallery__likes"
+    >
+      <span
+        className="gallery__likes-icon"
+        onClick={[Function]}
+      >
+        heart
+      </span>
+      5354
+    </p>
+  </li>
+</ul>
+`;

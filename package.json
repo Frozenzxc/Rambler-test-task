@@ -7,9 +7,10 @@
     "eslint": "eslint --ext .jsx --ext .js src/",
     "wp.build": "webpack --mode production",
     "start": "webpack-dev-server",
-    "test": "npm run eslint",
+    "test": "npm run eslint && npm run test.jest",
+    "test.jest": "jest",
     "gulp.build": "gulp build",
-    "gulp.start": "gulp start",
+    "gulp.start": "webpack --mode production && gulp start",
     "build": "gulp build && webpack --mode production"
   },
   "devDependencies": {
@@ -44,13 +45,18 @@
     "prop-types": "15.7.2",
     "react-test-renderer": "16.12.0",
     "redux-devtools-extension": "2.13.8",
-    "redux-mock-store": "1.5.4"
+    "redux-mock-store": "1.5.4",
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.5",
+    "jest": "25.1.0"
   },
   "engines": {
     "node": "10"
   },
   "dependencies": {
     "axios": "0.20.0",
+    "imagesloaded": "4.1.4",
+    "masonry-layout": "4.2.2",
     "moment": "2.29.0",
     "prop-types": "15.7.2",
     "react": "16.13.1",
